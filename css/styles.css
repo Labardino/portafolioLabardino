@@ -1,0 +1,187 @@
+html,
+body {
+  height: 100%;
+  font-weight: 450;
+  background: #2a2828;
+  color: #f0edee;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  font-family: "Gentium Book Basic", serif;
+  color: #58bc82;
+}
+p {
+  font-family: "Amethysta", serif;
+  font-size: 120%;
+}
+ul {
+  font-weight: 450;
+}
+.list-group-item {
+  border: 0;
+}
+.parallax {
+  height: 100%;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#face {
+  background-image: url("../img/pre_foto.jpg");
+}
+#encierros {
+  background-image: url("../img/project_posters/unity_encierro.jpeg");
+}
+#home {
+  background-image: url("../img/space_backgr.jpg");
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.titles-banner {
+  color: black;
+  font-weight: 700;
+  font-size: 32px;
+}
+.banner-texty {
+  font-size: 22px;
+}
+.row-testing {
+  border: 3px solid red;
+}
+.col-testing {
+  border: 3px solid blue;
+}
+.images-descrip {
+  padding: 15px;
+}
+.icon-media {
+  display: inline;
+  font-size: 40px;
+}
+.space-row {
+  padding: 17px;
+}
+.space-col {
+  padding: 17px;
+}
+.white-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+a {
+  color: #0aa0d6;
+}
+a:hover {
+  color: #0aa0d6;
+  color: #58bc82;
+  opacity: 0.6;
+  text-decoration: none;
+}
+#space-sub-ban {
+  padding: 50px;
+}
+#banner-container {
+  background: #0aa0d6;
+}
+#project-intro {
+  font-weight: 550;
+}
+/* }
+#banner-col {
+  padding: 110px;
+} */
+.btn-primary {
+  background-color: #0aa0d6;
+  border: #0aa0d6;
+}
+.card-deck {
+  margin: 0px;
+}
+.card {
+  font-weight: 450;
+  background: #2a2828;
+  color: #f0edee;
+  border: 1px solid white;
+}
+.navbar,
+.navbar-nav,
+.collapse-navbar-collapse {
+  background-color: #242a3a;
+}
+/*modifica el color de los links (elementos del menú) y del brand (donde dice Navbar)*/
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.page-footer {
+  background: black;
+}
+
+#line_breaker {
+  background: #0aa0d6;
+}
+#white-title {
+  color: white;
+  font-weight: bold;
+}
+.spacer-ban {
+  height: 350px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+#navCrud, #btnCRUD, #nav-logout {
+  display: none;
+}
+
+.table{
+  color: white;
+}
+
+
+@media (min-width: 500px) {
+  p,
+  ul {
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 800px) {
+  p,
+  ul {
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+}
